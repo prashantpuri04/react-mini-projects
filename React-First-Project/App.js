@@ -1,6 +1,7 @@
 import React from "react";
 import  ReactDOM  from "react-dom/client";
-import Header from "./components/Header"
+import Header from "./components/Header";
+import User from "./components/User";
 
 // const HeadingComponent = () => {
 //     return(
@@ -15,7 +16,7 @@ const AppLayout = () => {
     return (
       <div className="app">
         <Header />
-        
+        <User/>
       </div>
     );
   };
