@@ -1,7 +1,7 @@
 const  Header =  () => {
     return(
     <div>
-        <p>Hello world from Header react</p> 
+        <p>Hello world from Header component</p> 
     </div>
     )
     

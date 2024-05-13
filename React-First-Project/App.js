@@ -1,7 +1,9 @@
 import React from "react";
 import  ReactDOM  from "react-dom/client";
 import Header from "./components/Header";
-import User from "./components/User";
+import User from "./components/User/User";
+
+import Products from "./components/ProductCard/Products";
 
 // const HeadingComponent = () => {
 //     return(
@@ -17,6 +19,8 @@ const AppLayout = () => {
       <div className="app">
         <Header />
         <User/>
+
+        <Products/>
       </div>
     );
   };
